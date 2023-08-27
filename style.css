@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#button {
+  background-color: brown;
+  color: aqua;
+  font-size: 10px;
+  padding: 10px 20px;
+  margin: 30px;
+  display: block;
+}
+.first {
+  max-width: 98%;
+  margin: 20px auto;
+}
+.body-img {
+  max-width: 100%;
+}
+#characters-list {
+  background-color: blue;
+  width: 98%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.house {
+  font-size: 20px;
+  font-weight: 500;
+}
+.actor {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+}
+.buttons {
+  margin-top: auto;
+}
+.button-dlt,
+.button-if {
+  font-size: 10px;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.button-if {
+  background-color: rgb(47, 194, 47);
+}
+.button-dlt {
+  background-color: rgb(196, 21, 21);
+}
+.char-img {
+  width: 30%;
+  height: 200px;
+  object-fit: cover;
+}
